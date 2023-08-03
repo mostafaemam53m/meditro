@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0eb5817c.css",
+    "main.js": "/static/js/main.e1f66186.js",
+    "static/js/787.73f9fb94.chunk.js": "/static/js/787.73f9fb94.chunk.js",
+    "static/media/home1.png": "/static/media/home1.7c2bc96d67d3eba1d64a.png",
+    "static/media/pannerbackground.jpg": "/static/media/pannerbackground.815eb17ad747be75950d.jpg",
+    "static/media/our_image_6.jpg": "/static/media/our_image_6.be2a77adde3dc48f9d5b.jpg",
+    "static/media/our_image_4.jpg": "/static/media/our_image_4.9045579a47c3fd89b17c.jpg",
+    "static/media/our_image_1.jpg": "/static/media/our_image_1.22ac1d594f69ddaf3e08.jpg",
+    "static/media/our_image_2.jpg": "/static/media/our_image_2.d03a0686030bcd2f05ec.jpg",
+    "static/media/about_image_1.jpg": "/static/media/about_image_1.0593bc2fd8a13cf8c19f.jpg",
+    "static/media/our_image_3.jpg": "/static/media/our_image_3.0d822ecc51b2532abe0e.jpg",
+    "static/media/our_image_5.jpg": "/static/media/our_image_5.24eb182159ea2d58610f.jpg",
+    "static/media/about_image_2.jpg": "/static/media/about_image_2.ad1ed7ee8284087fe9ee.jpg",
+    "static/media/form_background.jpg": "/static/media/form_background.ad1ed7ee8284087fe9ee.jpg",
+    "static/media/about_image_3.jpg": "/static/media/about_image_3.fa689b1037dbf69567a3.jpg",
+    "index.html": "/index.html",
+    "main.0eb5817c.css.map": "/static/css/main.0eb5817c.css.map",
+    "main.e1f66186.js.map": "/static/js/main.e1f66186.js.map",
+    "787.73f9fb94.chunk.js.map": "/static/js/787.73f9fb94.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0eb5817c.css",
+    "static/js/main.e1f66186.js"
+  ]
+}
