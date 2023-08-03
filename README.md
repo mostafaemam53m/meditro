@@ -1,3 +1,27 @@
+
+# [meditro app](https://64cba53ebcf93d77d1c3cc68--inspiring-yeot-0d1cc7.netlify.app/).
+
+
+# Introducing this application
+The meditro application is an application for a hospital with many departments, including the surgery department, dental clinic, and internal medicine
+The application displays all doctors in this hospital and presents their experience and explains the speed of response and efficiency of this hospital in treating patients
+Note: Most of the texts in this application are randomly generated and can be replaced with real texts to use this application in practical projects.
+
+## Features of this application.
+- This site is fast and compatible with search engines
+- Responsive: It can be run easily and smoothly on all devices and screens
+- It can be modified easily: because status was used in it and all links were placed in it, meaning that if you want a page link, you will change the link from one place only and you do not have to change it in the header or footer
+- Each page contains its own component, for example, the card of each doctor. You can easily modify it using it in any part or on any other page because status and props were used to transfer the doctor’s name and description to the new component, meaning that you do not need to modify a lot in code
+### notes:
+
+This project was created as a React.js application and it requires many modifications to be ready for practical or actual use. The main purpose of all the projects on my GitHub is to understand how these websites are built rather than deploying ready-made applications for others to use. Yes, you can make modifications and use it for your project.
+
+
+
+# show site live : [go to site](https://64cba53ebcf93d77d1c3cc68--inspiring-yeot-0d1cc7.netlify.app/).
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
