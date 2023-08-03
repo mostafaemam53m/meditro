@@ -1,0 +1,149 @@
+/* start Testimonial section */
+.testimonial .text h4 {
+    color: var(--orange_color);
+    font-weight: 700;
+    position: relative;
+
+
+}
+
+.testimonial .text h4::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background-image: url();
+    background-repeat: repeat;
+    background-color: var(--orange_color);
+}
+
+.testimonial .text p {
+    color: var(--text_color);
+
+}
+
+
+.testimonial .two-box .big-image {
+    position: relative;
+}
+
+
+.testimonial .two-box .big-image .circle-image {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.testimonial .two-box .big-image .circle-image.circle-image6 {
+    top: 63%;
+    left: 60%;
+}
+
+.testimonial .two-box .big-image .circle-image.circle-image1 {
+    top: 2%;
+    left: 33%;
+}
+
+.testimonial .two-box .big-image .circle-image.circle-image2 {
+    top: 29%;
+    left: 62%;
+}
+
+
+
+.testimonial .two-box .big-image .circle-image.circle-image3 {
+    top: 29%;
+    left: 5%;
+}
+
+.testimonial .two-box .big-image .circle-image.circle-image4 {
+    top: 63%;
+    left: 4%;
+}
+
+.testimonial .two-box .big-image .circle-image.circle-image5 {
+    top: 87%;
+    left: 32%;
+}
+
+/* Media query for small devices */
+@media screen and (max-width: 767px) {
+
+    /* Styles for small screens (e.g., smartphones) */
+    .testimonial .two-box .big-image .circle-image.circle-image1 {
+        top: 2%;
+        left: 44%;
+    }
+}
+
+.testimonial .two-box .big-image .circle-image.circle-image2 {
+    top: 26%;
+    left: 85%;
+}
+
+.testimonial .two-box .big-image .circle-image.circle-image5 {
+    top: 87%;
+    left: 46%;
+}
+
+.testimonial .two-box .big-image .circle-image.circle-image6 {
+    top: 67%;
+    left: 81%;
+}
+
+
+/* Media query for medium-sized devices */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* Styles for medium-sized screens (e.g., tablets) */
+    .testimonial .two-box .big-image .circle-image.circle-image1 {
+        top: 0%;
+        left: 41%;
+    }
+
+    .testimonial .two-box .big-image .circle-image.circle-image2 {
+        top: 29%;
+        left: 85%;
+    }
+
+    .testimonial .two-box .big-image .circle-image.circle-image5 {
+        top: 86%;
+        left: 44%;
+    }
+
+    .testimonial .two-box .big-image .circle-image.circle-image6 {
+        top: 63%;
+        left: 81%;
+    }
+
+}
+
+/* Media query for large devices */
+@media screen and (min-width: 992px) {
+
+    /* Styles for large screens (e.g., desktops) */
+    .testimonial .two-box .big-image .circle-image.circle-image1 {
+        top: 2%;
+        left: 39%;
+    }
+
+    .testimonial .two-box .big-image .circle-image.circle-image2 {
+        top: 29%;
+        left: 72%;
+    }
+
+    .testimonial .two-box .big-image .circle-image.circle-image5 {
+        top: 87%;
+        left: 39%;
+    }
+
+    .testimonial .two-box .big-image .circle-image.circle-image6 {
+        top: 63%;
+        left: 70%;
+    }
+}
+
+/* end Testimonial section */

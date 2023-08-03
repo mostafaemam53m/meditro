@@ -1,0 +1,23 @@
+.main-rotation {
+    position: relative;
+
+}
+
+.main-rotation img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    animation: move-rotation infinite linear 5s;
+}
+
+@keyframes move-rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+
+}

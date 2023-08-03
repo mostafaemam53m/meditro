@@ -1,0 +1,40 @@
+/* start move up  */
+#move-up {
+    position: fixed;
+    bottom: 6rem;
+    right: 1rem;
+    border: 2px solid var(--main_color);
+    border-radius: 63%;
+    background-color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 11px 0px var(--main_color);
+    animation: pointer-move .5s linear infinite alternate;
+    opacity: 0;
+    transition: all 0.3s;
+
+}
+
+#move-up.visible {
+    opacity: 1;
+
+}
+
+@keyframes pointer-move {
+    0% {
+        transform: translateY(0);
+
+    }
+
+    100% {
+        transform: translateY(10px);
+
+    }
+}
+
+#move-up svg {
+    font-size: 21px;
+    color: var(--main_color);
+}
+
+/* end move up */

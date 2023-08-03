@@ -1,0 +1,285 @@
+/* start section 1 */
+.section1 {
+    background-color: #F7F7FF;
+}
+
+.section1 svg.wave {
+    background-color: white;
+
+}
+
+/* end section 1 */
+/* image*/
+.main_img {
+    max-width: 100%;
+    animation: mover 2s infinite alternate;
+    transition: 0.3s ease all;
+
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0px);
+    }
+
+
+    100% {
+        transform: translateY(-10px);
+    }
+
+
+
+}
+
+@media (max-width:767px) {
+    .main_img {
+        max-width: 100%;
+        margin: 26px 0 0 0;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .main_img {
+        max-width: 122%;
+        margin: 114px 0 0 0;
+    }
+
+}
+
+@media (min-width:992px) {
+    .main_img {
+        max-width: 122%;
+        margin: 0 0 0 0;
+    }
+
+}
+
+/* start main text */
+
+.main_text h5 {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 20px;
+    word-spacing: 4px;
+    color: var(--main_color);
+}
+
+.main_text h2 {
+    color: var(--text_color);
+    color: var(--text_color);
+    font-size: 45px;
+    font-weight: 800;
+    /* padding: 10px 20px; */
+}
+
+/* end main text */
+/* start read more buttom */
+.container .row .btn {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: var(--orange_color);
+    color: #fff;
+    border-radius: 9px;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    font-weight: 500;
+    /* font-size: 15px; */
+    border: 1px solid var(--orange_color);
+    cursor: pointer;
+    padding: 30px 29px;
+}
+
+.container .row .btn:hover,
+.container .row .btn:focus {
+    background-color: var(--secondary_orangge);
+    border: 1px solid var(--orange_color);
+}
+
+.container .row .btn a {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* end read more buttom */
+
+/* start box shap */
+.container .left_side {
+    position: relative;
+}
+
+.container .left_side .box_shap {
+
+    position: absolute;
+    left: 0;
+    top: 3%;
+    width: 70px;
+    height: 70px;
+    /* border: 1px solid black; */
+    background-color: var(--secondary_color);
+    transform: rotateZ(57deg);
+    animation: roter 2s infinite alternate;
+
+    transition: 0.3s ease all;
+
+}
+
+@keyframes roter {
+    0% {
+        transform: rotateZ(57deg);
+    }
+
+
+
+
+    100% {
+        transform: rotateZ(72deg);
+    }
+}
+
+.container .left_side .box_shap::after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: -14%;
+    width: 90px;
+    height: 90px;
+    border: 1px solid var(--main_color);
+    transform: rotateZ(178deg);
+
+}
+
+/* en box shap */
+
+/* shaps in right side */
+/* shap + (plus) */
+.container .right_side {
+    position: relative;
+}
+
+.container .left_side .plus {
+    position: absolute;
+    left: 85%;
+    top: 18%;
+    font-size: 48px;
+    color: var(--main_color);
+    animation: mover2 2s infinite alternate;
+}
+
+
+.container .left_side .faStethoscope {
+    position: absolute;
+    left: -1%;
+    top: 86%;
+    font-size: 61px;
+    color: #e98750ab;
+    transform: translate(15px, 15px);
+    animation: mover 2s infinite alternate;
+
+}
+
+
+@keyframes mover2 {
+    0% {
+        transform: translate(15px, 15px);
+    }
+
+    100% {
+        transform: translate(15px, 35px);
+    }
+
+}
+
+/* to responsve  potiostion of plus and faStethoscope */
+
+@media screen and (max-width: 480px) {
+
+    /* rules for mobile devices here */
+    .container .left_side .plus {
+
+        left: 85%;
+        top: 2%;
+
+    }
+
+    .container .left_side .faStethoscope {
+
+        left: 79%;
+        top: -11%;
+
+    }
+
+    .container .left_side .box_shap {
+        left: 21px;
+        top: 8%;
+        z-index: -1;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+    /* rules for tablet devices here */
+    .container .left_side .plus {
+
+        left: 85%;
+        top: 2%;
+
+    }
+
+    .container .left_side .faStethoscope {
+        left: 2%;
+        top: 95%;
+    }
+
+    .container .left_side .box_shap {
+        left: 21px;
+        top: 8%;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+
+    /* rules for laptop devices here */
+    .container .left_side .plus {
+
+        left: 85%;
+        top: 2%;
+
+    }
+
+    .container .left_side .faStethoscope {
+
+        left: -15%;
+        top: 59%;
+
+    }
+
+    .container .left_side .box_shap {
+        left: 21px;
+        top: 8%;
+    }
+}
+
+@media screen and (min-width: 1367px) {
+
+    /* rules for desktop devices here */
+    .container .left_side .plus {
+
+        left: 85%;
+        top: 2%;
+
+    }
+
+    .container .left_side .faStethoscope {
+
+        left: 76%;
+        top: -11%;
+
+    }
+
+    .container .left_side .box_shap {
+        left: 21px;
+        top: 8%;
+    }
+}

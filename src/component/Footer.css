@@ -1,0 +1,210 @@
+/* start left side */
+
+.container .left-side p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-secondary-color);
+    line-height: 28px;
+
+}
+
+.container .left-side div {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .left-side div h6 {
+    color: var(--orange_color);
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-left: 80px;
+}
+
+.container .left-side div span {
+    display: flex;
+}
+
+.container .left-side div span svg {
+    margin-right: 24px;
+    margin-bottom: 9px;
+    margin-top: -30px;
+    background-color: var(--orange_color);
+    border: none;
+    border-radius: 50%;
+    padding: 13px;
+    font-size: 25px;
+    color: #fff;
+}
+
+
+
+.container .left-side div span p {
+    font-size: 21px;
+    font-weight: 700;
+    color: var(--text_color);
+    letter-spacing: -1px;
+    word-spacing: 1px;
+}
+
+/* end left side */
+
+/* start all h3 in footer */
+footer .container div h3 {
+    font-weight: 700;
+    color: var(--text_color);
+    text-transform: capitalize;
+}
+
+/*  end all h3 in footer*/
+
+/* start ul an list */
+footer .container .ul-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 10px 0px 0px 0px;
+}
+
+footer .container .ul-footer li {
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--text-secondary-color);
+    cursor: pointer;
+}
+
+footer .container .ul-footer li a {
+    color: var(--text-secondary-color);
+}
+
+/* end ul and list */
+/* start form and social */
+footer .container .Subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+footer .container .Subscribe input {
+    padding: 10px;
+    border: 1px solid white;
+    width: 100%;
+    background: none;
+    border-radius: 9px;
+    outline-color: var(--orange_color);
+    margin: 9px 0px 0px 0px;
+    box-shadow: 2px 2px 46px -15px #261e1e4a;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-secondary-color);
+    letter-spacing: 0px;
+}
+
+footer .container .Subscribe input::placeholder {
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-secondary-color);
+    letter-spacing: 2px;
+
+}
+
+footer .container .Subscribe button {
+    justify-content: center;
+    /* padding: 10px; */
+    background-color: var(--orange_color);
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    word-spacing: 6px;
+    box-shadow: 0px 1px 15px 0px #f17732ab;
+}
+
+footer .container .social {
+    display: flex;
+}
+
+footer .container .social li {
+    align-items: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    /* gap: 18%; */
+    margin-left: 14px;
+}
+
+
+/* end form and social */
+
+/* start auther */
+footer .container .auther {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+footer .container .auther span span {
+    display: inline;
+    color: var(--orange_color);
+}
+
+footer .container .auther span span a {
+    display: inline;
+    color: var(--orange_color);
+}
+
+/* end auther */
+/* footer on phones */
+@media (max-width:768px) {
+    .container .left-side div {
+        margin: 30px 0px 30px 0px;
+        align-items: center;
+    }
+
+    .container .left-side img {
+        margin: 0px auto;
+        display: block;
+    }
+
+    .container .left-side p {
+
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    footer .container div h3 {
+
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    footer .container .ul-footer {
+
+        padding: 10px 0px 13px 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .container .ul-footer li {
+        font-size: 20px;
+
+        padding: 0px;
+        line-height: 2;
+    }
+
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-top: 2rem;
+    }
+}
+
+/* end footer on phones */

@@ -1,0 +1,252 @@
+/* start about us page */
+
+/* start box of number 20 */
+.aboutUs .images {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUs .images .box-img img {
+    width: 100%;
+    height: 100%;
+
+    border: 8px solid #e8e9ff;
+}
+
+.aboutUs .images .box-img.img-2 img {
+    border-radius: 53px 0px 40px 40px;
+}
+
+.aboutUs .images .box-img.img-1 img {
+    border-radius: 0px 40px 40px 40px;
+}
+
+.aboutUs .images .box-img.img-3 img {
+    border-radius: 53px 40px 40px 0px;
+}
+
+.aboutUs .images .box-img.img-4 img {
+    border-radius: 53px 0px 40px 40px;
+}
+
+.aboutUs .images .box {
+    padding: 34px 0px;
+    background-color: var(--secondary_color);
+    color: #fff;
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    border-radius: 40px 40px 0px 40px;
+    position: relative;
+}
+
+.aboutUs .images .box::after {
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    width: 220px;
+    height: 220px;
+    border: 2px solid var(--main_color);
+    border-radius: 40px 40px 0px 40px;
+}
+
+.aboutUs .images .box .number {
+    color: var(--main_color);
+    font-size: 130px;
+    font-weight: 900;
+
+}
+
+.aboutUs .images .box .text {
+    color: var(--main_color);
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+/* end box of number 20 */
+/* end about us page */
+/* start right side */
+.aboutUs .right-side h4 {
+    color: var(--orange_color);
+
+
+}
+
+
+.aboutUs .right-side .text h5 {
+    color: var(--text_color);
+}
+
+.aboutUs .right-side .text p {
+    color: var(--text-secondary-color);
+}
+
+/* general ruls on all boxs */
+.aboutUs .right-side .box {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    /* width: 98%; */
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.aboutUs .right-side .box .icon {
+    position: relative;
+}
+
+.aboutUs .right-side .box .icon::after {
+    position: absolute;
+    content: " ";
+    top: -12px;
+    left: -22px;
+    width: 40px;
+    background-color: aqua;
+    border-radius: 50%;
+    padding: 33px;
+    z-index: -1;
+
+}
+
+.aboutUs .right-side .box p {
+    color: var(--text_color);
+}
+
+/* options of individula box */
+.aboutUs .right-side .box-1 {
+    border: 1px solid #b2f0fb;
+}
+
+
+.aboutUs .right-side .box-1 .icon::after {
+    background-color: #b2f0fb;
+
+}
+
+.aboutUs .right-side .box-2 {
+    border: 1px solid #4bf37d;
+}
+
+
+.aboutUs .right-side .box-2 .icon::after {
+    background-color: #4bf37d;
+
+}
+
+.aboutUs .right-side .box-3 {
+    border: 1px solid #bb1fbb;
+}
+
+
+.aboutUs .right-side .box-3 .icon::after {
+    background-color: #bb1fbb;
+
+}
+
+.aboutUs .right-side .box-4 {
+    border: 1px solid #06d0f3;
+}
+
+
+.aboutUs .right-side .box-4 .icon::after {
+    background-color: #06d0f3;
+
+}
+
+/* movitions is the same as in contact us page */
+.aboutUs .right-side .box .icon:hover {
+    animation: viperation 0.3s infinite linear alternate;
+}
+
+/* end right side */
+
+/* start section-numbers */
+.aboutUs .section-numbers {
+    background-color: #eeeefa;
+}
+
+.aboutUs .section-numbers .box-number {
+    color: var(--orange_color);
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 24px 12px 0px 2px var(--text_color);
+    position: relative;
+    transition: all .3s;
+
+
+}
+
+.aboutUs .section-numbers .box-number:hover {
+    background-color: var(--secondary_color);
+    color: white !important;
+}
+
+.aboutUs .section-numbers .box-number::after {
+    position: absolute;
+    content: '';
+    top: -22px;
+    left: -12px;
+    border: 2px solid var(--bs-indigo);
+    width: 99%;
+    height: 107%;
+    border-radius: 10px;
+
+}
+
+.aboutUs .section-numbers .box-number .number {
+    color: var(--orange_color);
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.aboutUs .section-numbers .box-number .text h6 {
+    color: var(--text_color);
+
+}
+
+.aboutUs .section-numbers .box-number .text p {
+    color: var(--text-secondary-color);
+}
+
+
+
+
+/* end section-numbers */
+/* start section our doctors */
+.aboutUs .section-Our-Doctor .text h4 {
+    color: var(--orange_color);
+    font-weight: 700;
+    position: relative;
+
+
+}
+
+.aboutUs .section-Our-Doctor .text h4::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background-image: url();
+    background-repeat: repeat;
+    background-color: var(--orange_color);
+}
+
+.aboutUs .section-Our-Doctor .text p {
+    color: var(--text_color);
+
+}
+
+.aboutUs .row .left-box-animation {
+    position: absolute;
+    /* top: 50%; */
+    left: 0%;
+}
+
+/* end sections oure doctors */

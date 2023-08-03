@@ -1,0 +1,161 @@
+/* start card  */
+.main-box {
+
+    /* width: 100%; */
+    /* height: 100%; */
+    border: 2px solid var(--bs-gray-200);
+    border-radius: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+
+
+}
+
+.main-box:hover {
+    box-shadow: 0px 0px 22px 3px #565acf2e;
+    transition: all .3s;
+    border: none;
+    /* border: 2px solid var(--btn_color); */
+}
+
+.main-box .top-section {
+    height: 400px;
+    width: 100%;
+    /* position: relative; */
+}
+
+.main-box .top-section .blue-circle {
+    background-image: url('../../Assets/blue_hex.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+
+}
+
+.main-box .top-section .blue-circle .orange-circle {
+    background-image: url('../../Assets/orange_hex.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+
+.main-box .top-section .blue-circle .orange-circle .cover {
+    width: 178px;
+    position: absolute;
+    top: 27%;
+    left: calc((100%)/5);
+    border: 27px solid var(--main_color);
+    border-radius: 50%;
+    transition: all 0.3s;
+    position: absolute;
+    top: 27% !important;
+    left: 23% !important;
+
+}
+
+/* Extra small devices (phones) */
+@media (max-width:445px) {
+    .main-box .top-section .blue-circle .orange-circle .cover {
+
+
+        top: 27% !important;
+        left: 27% !important;
+
+    }
+}
+
+@media only screen and(max-width:448px)and (min-width: 576px) {
+
+    /* CSS rules go here */
+    .main-box .top-section .blue-circle .orange-circle .cover {
+
+        top: 27%;
+        left: 32%;
+
+
+    }
+}
+
+/* Small devices (tablets) */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+
+    /* CSS rules go here */
+    .main-box .top-section .blue-circle .orange-circle .cover {
+
+        top: 28% !important;
+        left: 32% !important;
+
+    }
+}
+
+/* Medium devices (laptops, desktops) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+    /* CSS rules go here */
+    .main-box .top-section .blue-circle .orange-circle .cover {
+
+        top: 27%;
+        left: 22%;
+
+
+    }
+}
+
+/* Large devices (large laptops, desktops, TVs) */
+@media only screen and (min-width: 993px) {
+
+    /* CSS rules go here */
+    .main-box .top-section .blue-circle .orange-circle .cover {
+
+        top: 27%;
+        left: 17%;
+
+
+    }
+}
+
+
+.main-box .top-section .blue-circle .orange-circle .cover img {
+    position: relative;
+    z-index: -1;
+}
+
+
+
+
+
+.main-box .bottom-section {
+    margin-top: 10px;
+
+    /* height: 40%; */
+    /* width: 100%; */
+}
+
+.main-box .bottom-section h4 {
+    color: #1f2278c7;
+    font-weight: 700;
+}
+
+.main-box .bottom-section p {
+    color: var(--orange_color);
+    font-weight: 700;
+}
+
+
+.main-box .bottom-section .icon span {
+    padding: 10px;
+
+
+}
+
+.main-box .bottom-section .icon span a {
+    font-size: 20px;
+    color: var(--main_color);
+}
+
+/* end card  */

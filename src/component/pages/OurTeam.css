@@ -1,0 +1,61 @@
+/* start ourteam page */
+
+
+
+/* start actions and movtions */
+.ourteam {
+    position: relative;
+}
+
+.ourteam .right-shap {
+    position: absolute;
+    top: 33%;
+    right: 0%;
+    animation: left_to_right infinite alternate linear 0.9s;
+
+}
+
+.ourteam .left-shap {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    animation: top_to_down infinite alternate linear 2s;
+}
+
+@keyframes top_to_down {
+    0% {
+        transform: translateY(10px);
+    }
+
+    50% {
+        transform: translateY(15px);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+
+
+}
+
+@keyframes left_to_right {
+    0% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(15px);
+    }
+
+
+
+
+}
+
+/* end actions and movtions */
+
+
+
+
+
+/* end  ourteam page */

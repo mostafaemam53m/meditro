@@ -1,0 +1,122 @@
+/* start nav */
+nav {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    border-radius: 0px !important;
+}
+
+
+
+nav .navbar-nav .nav-link {
+    color: var(--main_color);
+    font-weight: 600;
+    font-size: 16px;
+
+    text-transform: capitalize;
+}
+
+@media (min-width:992px) {
+    .navbar-nav {
+        align-items: center;
+    }
+}
+
+nav .navbar-nav .nav-link .btn-contact {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: var(--btn_color);
+    color: #fff;
+    border-radius: 6%;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-size: 12px;
+    border: 1px solid var(--btn_color);
+    cursor: pointer;
+    padding: 26px;
+}
+
+nav .navbar-nav .nav-link .btn-contact:hover {
+    background-color: #1f2278;
+}
+
+nav .navbar-nav .nav-link .btn-contact span {
+    display: block;
+    padding: 13px 12px;
+    background-color: #ffffff;
+    color: var(--btn_color);
+    margin-left: 33px;
+    margin-right: -21px;
+    border-radius: 13%;
+
+
+}
+
+/* active class */
+.nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: var(--orange_color) !important;
+}
+
+
+
+
+.navbar-nav .nav-link:hover {
+    color: var(--orange_color) !important;
+}
+
+.navbar-nav .show>.nav-link:hover {
+    color: var(--orange_color) !important;
+}
+
+/*  start dropdown*/
+
+
+
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    border: 1px solid #fff;
+    margin-top: 15px;
+    border-radius: 0px;
+    background-color: #ffffff;
+    text-transform: capitalize;
+    width: 192px;
+}
+
+
+.dropdown-menu a {
+    position: relative;
+}
+
+
+.dropdown-item::before {
+    position: absolute;
+    content: '';
+    background-color: var(--orange_color);
+    transition: all var(--main-transition);
+    bottom: 3px;
+    height: 2px;
+    width: 0%;
+    right: 40px;
+    transform-origin: right
+}
+
+.dropdown-item:hover::before {
+    transition: var(--main-transition);
+
+    width: 50%;
+    bottom: 3px;
+    height: 2px;
+    left: 15px;
+
+}
+
+/*  end dropdown*/
+
+/* start collaps button */
+
+/* end collaps button */
+/* end nav */

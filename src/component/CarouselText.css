@@ -1,0 +1,103 @@
+/* start carousel */
+.main-carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.main-carousel .TextBox {
+    position: relative;
+    background-color: var(--orange_color);
+    border-radius: 40px 0px 40px 40px;
+    padding: 31px;
+    margin-bottom: 28px;
+    text-align: left;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+    box-shadow: 0px -2px 30px -11px var(--orange_color);
+    /* transform: translateX(557px); */
+    /* display: none; */
+    transition: all 0.5s;
+}
+
+.main-carousel .TextBox.next {
+    animation: moveL 0.5s linear;
+    /* transform: translateX(557px); */
+}
+
+
+
+.main-carousel .TextBox.prev {
+    animation: moveR 0.5s linear;
+}
+
+@keyframes moveL {
+    0% {
+        transform: translateX(0px);
+
+    }
+
+    100% {
+        transform: translateX(557px);
+    }
+
+}
+
+@keyframes moveR {
+    0% {
+        transform: translateX(0px);
+
+    }
+
+    100% {
+        transform: translateX(-557px);
+    }
+
+}
+
+
+
+.main-carousel .TextBox .quote-left {
+    position: absolute;
+    top: -12%;
+    left: 9%;
+    font-size: 44px;
+    background-color: #fff;
+    color: var(--orange_color);
+    padding: 0px 15px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 7px -3px black;
+
+}
+
+.main-carousel .TextBox .quote-right {
+    position: absolute;
+    bottom: 4%;
+    right: 7%;
+    font-size: 100px;
+    color: #f5a070;
+}
+
+
+.main-carousel .TextBox .BottomText {
+    font-style: none;
+
+}
+
+.main-carousel button {
+    cursor: pointer;
+    border: none;
+    background-color: var(--secondary_orangge);
+    margin: 0 4px;
+    color: #fff;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+
+/* end carousel */
