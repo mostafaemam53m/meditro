@@ -17,11 +17,26 @@ Note: Most of the texts in this application are randomly generated and can be re
 This project was created as a React.js application and it requires many modifications to be ready for practical or actual use. The main purpose of all the projects on my GitHub is to understand how these websites are built rather than deploying ready-made applications for others to use. Yes, you can make modifications and use it for your project.
 
 ## Languages and libraries used in this application
-- h
+
 - Html
 -  css
 -  js bootstrap 5.2 react
 -  React.js 
+
+# from website
+- ![](https://github.com/mostafaemam53m/meditro/blob/master/1.PNG).
+- ![](https://github.com/mostafaemam53m/meditro/blob/master/2.PNG).
+-  ![](https://github.com/mostafaemam53m/meditro/blob/master/3.PNG).
+- ![](https://github.com/mostafaemam53m/meditro/blob/master/4.PNG).
+- ![](https://github.com/mostafaemam53m/meditro/blob/master/5.PNG).
+- ![](https://github.com/mostafaemam53m/meditro/blob/master/6.PNG).
+- ![](https://github.com/mostafaemam53m/meditro/blob/master/7.PNG).
+- ![](https://github.com/mostafaemam53m/meditro/blob/master/8.PNG).
+- ![](https://github.com/mostafaemam53m/meditro/blob/master/9.PNG).
+- ![](https://github.com/mostafaemam53m/meditro/blob/master/10.PNG).
+- ![](https://github.com/mostafaemam53m/meditro/blob/master/11.PNG).
+
+
 
 
 # show site live : [go to site](https://64cba53ebcf93d77d1c3cc68--inspiring-yeot-0d1cc7.netlify.app/).
